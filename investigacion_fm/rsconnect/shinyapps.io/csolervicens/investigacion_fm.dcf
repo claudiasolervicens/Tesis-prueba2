@@ -1,0 +1,12 @@
+name: investigacion_fm
+title: investigacion_fm
+username:
+account: csolervicens
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 254595
+bundleId: 1165872
+url: https://csolervicens.shinyapps.io/investigacion_fm/
+when: 1515357509.54053
+asMultiple: FALSE
+asStatic: FALSE

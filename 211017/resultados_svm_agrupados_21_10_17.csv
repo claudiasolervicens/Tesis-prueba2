@@ -1,0 +1,123 @@
+"","Ano","Etiqueta","Total","Probabilidad"
+"1",2007,"Oncology",1,0.117887695560798
+"2",2009,"Clinical neurology",4,0.123504682155418
+"3",2009,"Dermatology",2,0.091100170240637
+"4",2009,"Endocrinology & metabolism",11,0.195007344701132
+"5",2009,"Infectious diseases",7,0.143372115463544
+"6",2009,"Medicinal chemistry",1,0.125986119026806
+"7",2009,"Medicine, research & experimental",28,0.167049390182286
+"8",2009,"Neurosciences",3,0.216585888799979
+"9",2009,"Obstetrics & gynecology",8,0.176959852216228
+"10",2009,"Oncology",4,0.239630252311354
+"11",2009,"Parasitology",3,0.291329648718899
+"12",2009,"Pediatrics",1,0.0939130815073885
+"13",2009,"Pharmacology & pharmacy",5,0.242331137160689
+"14",2009,"Psychiatry",1,0.131056681078298
+"15",2009,"Public, enviromental & occupational health",4,0.0922415189387124
+"16",2009,"Substance abuse",1,0.108058553275651
+"17",2009,"Surgery",8,0.203374587900703
+"18",2009,"Toxicology",2,0.10756269195261
+"19",2010,"Cardiac & cardiovascular systems",1,0.20794524501651
+"20",2010,"Clinical neurology",9,0.131268777553967
+"21",2010,"Dermatology",1,0.0900341719756184
+"22",2010,"Endocrinology & metabolism",6,0.190370874519844
+"23",2010,"Infectious diseases",8,0.179939639479728
+"24",2010,"Medicinal chemistry",1,0.113501458068524
+"25",2010,"Medicine, research & experimental",34,0.168764543784187
+"26",2010,"Nutrition & dietetics",1,0.0622984186498061
+"27",2010,"Obstetrics & gynecology",6,0.201385732285986
+"28",2010,"Oncology",9,0.337514809542227
+"29",2010,"Parasitology",9,0.269668437670491
+"30",2010,"Pharmacology & pharmacy",2,0.178860958606524
+"31",2010,"Physiology",1,0.11139449534156
+"32",2010,"Psychiatry",3,0.107687431411941
+"33",2010,"Public, enviromental & occupational health",1,0.105518676947824
+"34",2010,"Rheumatology",1,0.0951842252625031
+"35",2010,"Surgery",3,0.200696535576596
+"36",2010,"Toxicology",2,0.110158115841517
+"37",2011,"Cardiac & cardiovascular systems",5,0.172957086542383
+"38",2011,"Clinical neurology",7,0.11716875020664
+"39",2011,"Dermatology",1,0.0657579701446309
+"40",2011,"Endocrinology & metabolism",10,0.203133221423964
+"41",2011,"Gastroenterology & hepatology",2,0.100571213575308
+"42",2011,"Infectious diseases",5,0.129587581368668
+"43",2011,"Inmunology",1,0.176006495484046
+"44",2011,"Medicine, research & experimental",37,0.176745676317994
+"45",2011,"Neurosciences",5,0.204339745483152
+"46",2011,"Nutrition & dietetics",2,0.1946642325795
+"47",2011,"Obstetrics & gynecology",5,0.110027721027667
+"48",2011,"Oncology",6,0.24012817658807
+"49",2011,"Parasitology",3,0.223984960841326
+"50",2011,"Pharmacology & pharmacy",3,0.215349599610812
+"51",2011,"Physiology",1,0.146081707542957
+"52",2011,"Psychiatry",4,0.0884994207121209
+"53",2011,"Public, enviromental & occupational health",4,0.0833952059887598
+"54",2011,"Surgery",8,0.12791928004436
+"55",2011,"Toxicology",2,0.106616315651331
+"56",2012,"Cardiac & cardiovascular systems",4,0.137788958472235
+"57",2012,"Clinical neurology",13,0.115479141577488
+"58",2012,"Endocrinology & metabolism",13,0.200879647864733
+"59",2012,"Gastroenterology & hepatology",1,0.0909678164452003
+"60",2012,"Infectious diseases",7,0.172507167614015
+"61",2012,"Inmunology",1,0.128598075815197
+"62",2012,"Medicine, research & experimental",38,0.182665579401422
+"63",2012,"Neurosciences",1,0.177071414355339
+"64",2012,"Nutrition & dietetics",2,0.153642200618668
+"65",2012,"Obstetrics & gynecology",6,0.210942246531629
+"66",2012,"Oncology",9,0.342208400715257
+"67",2012,"Parasitology",5,0.266296955531639
+"68",2012,"Pharmacology & pharmacy",2,0.233553756565613
+"69",2012,"Psychiatry",4,0.107300104753611
+"70",2012,"Public, enviromental & occupational health",5,0.0846502508052841
+"71",2012,"Surgery",2,0.0959373639366207
+"72",2012,"Toxicology",1,0.0987187395511295
+"73",2013,"Cardiac & cardiovascular systems",1,0.115989660969199
+"74",2013,"Clinical neurology",7,0.107554544616421
+"75",2013,"Dermatology",3,0.0909020439738086
+"76",2013,"Endocrinology & metabolism",8,0.218185445374684
+"77",2013,"Gastroenterology & hepatology",1,0.12701833861827
+"78",2013,"Infectious diseases",8,0.12914097716572
+"79",2013,"Medicine, research & experimental",19,0.16508842644065
+"80",2013,"Neurosciences",1,0.131793950457631
+"81",2013,"Nutrition & dietetics",3,0.195488965337014
+"82",2013,"Obstetrics & gynecology",6,0.152388235822899
+"83",2013,"Oncology",8,0.310834010312231
+"84",2013,"Otorhinolaryngology",2,0.0741081414659656
+"85",2013,"Parasitology",8,0.260279501490011
+"86",2013,"Pharmacology & pharmacy",2,0.214150412564159
+"87",2013,"Physiology",1,0.137019293611021
+"88",2013,"Psychiatry",1,0.106641145331603
+"89",2013,"Public, enviromental & occupational health",5,0.104594133606721
+"90",2013,"Rheumatology",1,0.099257799597965
+"91",2013,"Substance abuse",2,0.0904474825524275
+"92",2013,"Surgery",6,0.123217152976162
+"93",2014,"Cardiac & cardiovascular systems",7,0.136901600977999
+"94",2014,"Clinical neurology",6,0.126731256236211
+"95",2014,"Endocrinology & metabolism",5,0.151056484512102
+"96",2014,"Gastroenterology & hepatology",3,0.1029870701119
+"97",2014,"Infectious diseases",9,0.151638264894369
+"98",2014,"Inmunology",2,0.15889564451268
+"99",2014,"Medicine, research & experimental",32,0.176587382812686
+"100",2014,"Neurosciences",2,0.141594552277648
+"101",2014,"Nutrition & dietetics",3,0.221405700601607
+"102",2014,"Obstetrics & gynecology",3,0.274661148664153
+"103",2014,"Oncology",9,0.328288438765267
+"104",2014,"Otorhinolaryngology",1,0.0666993206648252
+"105",2014,"Parasitology",2,0.267706298476535
+"106",2014,"Pediatrics",1,0.107101320636768
+"107",2014,"Pharmacology & pharmacy",1,0.110465778999193
+"108",2014,"Physiology",3,0.141189378648086
+"109",2014,"Psychiatry",3,0.107458436523841
+"110",2014,"Public, enviromental & occupational health",6,0.0963455754457881
+"111",2014,"Surgery",4,0.139414957102804
+"112",2014,"Tropical medicine",1,0.0928566053164667
+"113",2015,"Clinical neurology",5,0.109033776214802
+"114",2015,"Endocrinology & metabolism",2,0.221849663984137
+"115",2015,"Infectious diseases",2,0.156878568336127
+"116",2015,"Medicine, research & experimental",14,0.143568247500822
+"117",2015,"Neurosciences",2,0.162838169907921
+"118",2015,"Obstetrics & gynecology",5,0.200653173179021
+"119",2015,"Oncology",3,0.25272220425327
+"120",2015,"Otorhinolaryngology",1,0.0685666163377953
+"121",2015,"Pharmacology & pharmacy",1,0.242469070406966
+"122",2015,"Public, enviromental & occupational health",3,0.0948640385195926

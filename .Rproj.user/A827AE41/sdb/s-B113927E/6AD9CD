@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(\"shiny\")\nlibrary(\"highcharter\")\n\nui <- shinyUI(\n  fluidPage(\n    column(width = 8, highchartOutput(\"hcontainer\", height = \"500px\")),\n    column(width = 4, dataTableOutput(\"tablecontainer\"))\n  )\n)\n\nserver <- function(input, output) {      \n  \n  a <- data.frame(b = LETTERS[1:10], c = 11:20, d = 21:30, e = 31:40)\n  \n  output$hcontainer <- renderHighchart({      \n    \n    myClickFunc <- JS(\"function(event) {Shiny.onInputChange('hcClicked', this.name);}\")\n    \n    highchart() %>% \n      hc_xAxis(categories = a$b) %>% \n      hc_add_series(name = \"c\", data = a$c) %>%\n      hc_add_series(name = \"d\", data = a$d) %>% \n      hc_add_series(name = \"e\", data = a$e) %>%\n      hc_plotOptions(series = list(stacking = FALSE, events = list(click = myClickFunc))) %>%\n      hc_chart(type = \"column\")\n    \n  })      \n  \n  output$tablecontainer <- renderDataTable({\n    if(!is.null(input$hcClicked)){\n      subset(a, , c(\"b\", input$hcClicked))\n    }\n  })\n}\n\nshinyApp(ui = ui, server = server)",
+    "created" : 1515366272371.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4175101012",
+    "id" : "6AD9CD",
+    "lastKnownWriteTime" : 1515366322,
+    "last_content_update" : 1515366322256,
+    "path" : "~/Tesis/test/app.R",
+    "project_path" : "test/app.R",
+    "properties" : {
+    },
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

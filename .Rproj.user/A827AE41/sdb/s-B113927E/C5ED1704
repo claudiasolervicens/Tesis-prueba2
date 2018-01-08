@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1511643607069.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C5ED1704",
+    "lastKnownWriteTime" : 7810215294637205358,
+    "last_content_update" : 1511643607069,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "DC8BB847",
+        "caption" : "DataMaestra",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=DataMaestra&cache_key=DC8BB847",
+        "displayedObservations" : "4857",
+        "environment" : "",
+        "object" : "DataMaestra",
+        "preview" : "0",
+        "totalObservations" : "4857",
+        "variables" : "20"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

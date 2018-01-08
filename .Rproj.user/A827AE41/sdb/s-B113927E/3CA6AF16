@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1515355791218.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3CA6AF16",
+    "lastKnownWriteTime" : 25,
+    "last_content_update" : 1515355791218,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "6DA33327",
+        "caption" : "Nombre_Frecuencia",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Nombre_Frecuencia&cache_key=6DA33327",
+        "displayedObservations" : 30804,
+        "environment" : "",
+        "object" : "Nombre_Frecuencia",
+        "preview" : 0,
+        "totalObservations" : 30804,
+        "variables" : 2
+    },
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#install.packages(\"topicmodels\")\n\nlibrary(topicmodels)\nsource(\"C:/Users/paulina/Documents/AUXILIAR IN7J2/Aux_5/preprocesamiento-lda.R\")\n\n#Setear parametross para Gibbs sampling\n#este sampling se utiliza en el algoritmo de LDA\nburnin <- 4000 #número de iteraciones de gibbs omitidas al principio\niter <- 2000 #número de iteraciones de gibbs\nthin <- 500 #numero de omisiones entre interaciones\nseed <-list(2003,5,63,100001,765) #semilla para las muestras\nnstart <- 5 #numero de inicios aleatorios\n\n#Setear númeor de tópicos k\nk = 3\n\n#LDA\nlda <-LDA(dtm,k, method=\"Gibbs\", control=list(nstart=nstart, seed = seed, burnin = burnin, iter = iter, thin=thin))\n\n#Exportar resultados\n#docs en cada tópico\nlda.topicos <- as.matrix(topics(lda))\nwrite.csv(lda.topicos,file=paste(\"C:/Users/paulina/Documents/AUXILIAR IN7J2/Aux_5/LDA\",k,\"DocsTopicos.csv\"))\n\n#palabras con mayor frecuencia en cada tópico\nlda.palabras <- as.matrix(terms(lda, 10))\nwrite.csv(lda.palabras,file=paste(\"C:/Users/paulina/Documents/AUXILIAR IN7J2/Aux_5/LDA\",k,\"TopicosPalabras.csv\"))\n\n\n#probabilidad de que cada documento esté asociado a cada topico \nProbDocTopico <- as.data.frame(lda@gamma)\nwrite.csv(ProbDocTopico,file=paste(\"C:/Users/paulina/Documents/AUXILIAR IN7J2/Aux_5/LDA\",k,\"ProbTopico.csv\"))\n\n#probabilidad de cada palabra esté asociada a un tópico\nProbPalabraTopico <- as.data.frame(exp(lda@beta))\n\n\n\n\n\n\n\n\n\n\n",
+    "created" : 1511627362853.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "799111106",
+    "id" : "70FDE18C",
+    "lastKnownWriteTime" : 1480953773,
+    "last_content_update" : 1480953773,
+    "path" : "C:/Users/Claudia/AppData/Local/Temp/Rar$DIa0.282/lda.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
