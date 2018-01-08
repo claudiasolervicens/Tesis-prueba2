@@ -67,7 +67,7 @@ Keyword<-function (StringVector)
 
 
 
-# Define UI for application that draws a histogram
+# Define UI for application that draws a graph
 ui <- dashboardPage(
   dashboardHeader(title="Aplicacion Análisis Abstract Médicos", titleWidth=400),
   dashboardSidebar(
@@ -80,12 +80,30 @@ ui <- dashboardPage(
     selectInput("variable", "Seleccion:",
                 c("Todos" = 0,
                   "1" = 1,
-                  "2" = 2)),
+                  "2" = 2,
+                  "3" = 3,
+                  "4" = 4,
+                  "5" = 5,
+                  "6" = 6,
+                  "7" = 7,
+                  "8" = 8,
+                  "9" = 9
+                  "10" = 10)),
     
     selectInput("variableAno", "Seleccion Temporal:",
                 c("Todos" = 0,
                   "2005" = 2005,
-                  "2006" = 2006)),
+                  "2006" = 2006,
+                  "2007" = 2007,
+                  "2008" = 2008,
+                  "2009" = 2009,
+                  "2010" = 2010,
+                  "2011" = 2011,
+                  "2012" = 2012,
+                  "2013" = 2013,
+                  "2014" = 2014,
+                  "2015" = 2015,
+                  "2016" = 2016)),
 
     textOutput("seleccion"),
     
@@ -101,7 +119,7 @@ ui <- dashboardPage(
   )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic required to draw a graph
 server <- function(input, output,session) {
   
   
